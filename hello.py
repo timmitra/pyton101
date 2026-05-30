@@ -64,4 +64,22 @@ print(number_1)
 
 names = ["Tim", "Mitra", "John", "Doe"] # this is a list, it can be changed
 print(names[0]) # prints the first item in the list, which is "Tim"
+print(names) # prints all the names in the list
 
+names_tuple = ("Tim", "Mitra", "John", "Doe") # this is a tuple, it cannot be changed
+print(names_tuple[0]) # prints the first item in the tuple, which is "Tim"
+print(names_tuple) # prints all the names in the tuple
+
+fav_pizza = {
+    "Tim": "Pepperoni",
+    "Mitra": "Mushroom",
+    "John": "Sausage",
+    "Doe": "Veggie"
+} # this is a dictionary, it can be changed
+print("Tim's favorite pizza is " + fav_pizza["Tim"]) # prints Tim's favorite pizza, which is "Pepperoni"
+print(fav_pizza) # prints all the names and their favorite pizzas in the
+
+my_bool = True
+print(my_bool) # prints True
+my_bool = False
+print(my_bool) # prints False   
