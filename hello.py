@@ -83,3 +83,17 @@ my_bool = True
 print(my_bool) # prints True
 my_bool = False
 print(my_bool) # prints False   
+
+# Strings
+greetings= "My name is Tim Mitra"
+print(greetings.upper()) # prints the string in uppercase
+print(greetings.lower()) # prints the string in lowercase
+print(greetings.title()) # prints the string in title case
+print(greetings.capitalize()) # prints the string with the first letter capitalized
+print(greetings.swapcase()) # prints the string with the case of each letter swapped
+print(len(greetings)) # prints the length of the string, which is 20
+print(greetings[13]) # prints the first character of the string, which is "M"
+print(greetings[15:20]) # prints the characters from index 15 to 19, which is "Mitra"
+print(greetings.split()[4]) # splits the string into a list of words, then prints the 5th word, which is "Mitra"
+print(greetings.split(" ")[3:5]) # splits the string by a space, then prints the 4th and 5th words, which are "Tim" and "Mitra"
+
