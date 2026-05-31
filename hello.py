@@ -97,3 +97,21 @@ print(greetings[15:20]) # prints the characters from index 15 to 19, which is "M
 print(greetings.split()[4]) # splits the string into a list of words, then prints the 5th word, which is "Mitra"
 print(greetings.split(" ")[3:5]) # splits the string by a space, then prints the 4th and 5th words, which are "Tim" and "Mitra"
 
+# Numbers
+
+num = 10
+num2 = 10.25
+print(num) # prints 10
+print(num2) # prints 10.25
+print(float(num)) # converts num to a float and prints 10.0
+print(int(num2)) # converts num2 to an integer and prints 10
+
+print(5**2) # prints 5 to the power of 2, which is 25
+print(10%2) # prints the remainder of 10 divided by 2, which is 0
+print(10%3) # prints the remainder of 10 divided by 3, which is 1
+print(10//3) # prints the quotient of 10 divided by 3, which is 3
+
+print(4 + 1 * 3) # prints 7, because multiplication is done before addition 
+print((4 + 1) * 3) # prints 15, because the parentheses change the order of operations
+print(str(num)) # converts num to a string, which is "10"
+print(int(str(num)) + 5) # converts str_num to an integer and adds 5, which prints 15
